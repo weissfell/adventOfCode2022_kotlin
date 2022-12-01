@@ -1,22 +1,17 @@
 package test.kotlin.generalutils
 
+
+import main.kotlin.generalutils.ChristmasFileReader
+import org.junit.Assert
 import org.junit.Test
-import java.io.BufferedReader
-import java.io.InputStreamReader
-import java.net.URL
-import java.net.URLConnection
 
 class FileReaderTest {
 
-    val testString = "https://adventofcode.com/2022/day/1/input"
+    val testString = "/main/resources/input/01_input"
 
     @Test
-    fun connectToUrlTest(){
-        val url = URL(testString)
-        val inputStream : BufferedReader = BufferedReader(InputStreamReader(url.openStream()))
-        inputStream.lines().forEach {
-            println(it.toString())
-        }
+    fun connectToUrlTest() {
+        Assert.assertTrue(ChristmasFileReader(testString).fetchLinesAsString().size > 0)
     }
 
 }
