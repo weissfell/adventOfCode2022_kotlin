@@ -10,7 +10,7 @@ class FileReaderTest {
     val testString = "/main/resources/input/01_input"
 
     @Test
-    fun connectToUrlTest() {
+    fun readFromFile() {
         Assert.assertTrue(ChristmasFileReader(testString).fetchLinesAsString().size > 0)
     }
 
