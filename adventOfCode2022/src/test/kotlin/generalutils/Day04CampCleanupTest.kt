@@ -2,21 +2,21 @@ package test.kotlin.generalutils
 
 
 import main.kotlin.Day03rucksack
+import main.kotlin.Day04CampCleanup
 import org.junit.Assert
 import org.junit.Test
 import java.nio.file.Paths
 
-class Day03RucksackTest {
+class Day04CampCleanupTest {
 
     @Test
     fun testday3(){
         val projectDirAbsolutePath = Paths.get("").toAbsolutePath().toString()
         val inputPath = Paths.get(projectDirAbsolutePath, "/src/main/resources/input")
 
-        val day3 = Day03rucksack("$inputPath/03_input_test.txt")
-        Assert.assertTrue(day3.partOne() == 157)
-
-        Assert.assertTrue(day3.partTwo() == 70)
+        val day4 = Day04CampCleanup("$inputPath/04_input_test.txt")
+        Assert.assertTrue(day4.partOne() == 2)
+        Assert.assertTrue(day4.partTwo() == 4)
     }
 
 }
