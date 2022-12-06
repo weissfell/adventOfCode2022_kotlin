@@ -1,7 +1,7 @@
 package test.kotlin.generalutils
 
 
-import main.kotlin.Day03rucksack
+import main.kotlin.day03rucksack.Day03rucksack
 import org.junit.Assert
 import org.junit.Test
 import java.nio.file.Paths

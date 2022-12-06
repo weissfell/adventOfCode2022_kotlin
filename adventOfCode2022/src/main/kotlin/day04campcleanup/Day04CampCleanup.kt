@@ -1,4 +1,4 @@
-package main.kotlin
+package main.kotlin.day04campcleanup
 
 import main.kotlin.generalutils.ChristmasFileReader
 

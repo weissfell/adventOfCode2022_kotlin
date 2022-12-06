@@ -1,7 +1,8 @@
 package main.kotlin
 
 import main.kotlin.day01calories.CalorieCounter
-import org.junit.Assert
+import main.kotlin.day03rucksack.Day03rucksack
+import main.kotlin.day04campcleanup.Day04CampCleanup
 import java.lang.Exception
 import java.nio.file.Paths
 

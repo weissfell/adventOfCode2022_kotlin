@@ -1,8 +1,7 @@
 package test.kotlin.generalutils
 
 
-import main.kotlin.Day03rucksack
-import main.kotlin.Day04CampCleanup
+import main.kotlin.day04campcleanup.Day04CampCleanup
 import org.junit.Assert
 import org.junit.Test
 import java.nio.file.Paths

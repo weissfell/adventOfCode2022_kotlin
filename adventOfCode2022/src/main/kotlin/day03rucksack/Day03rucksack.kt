@@ -1,4 +1,4 @@
-package main.kotlin
+package main.kotlin.day03rucksack
 
 import main.kotlin.generalutils.ChristmasFileReader
 import java.lang.Exception
