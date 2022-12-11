@@ -4,6 +4,8 @@ import main.kotlin.day01calories.CalorieCounter
 import main.kotlin.day03rucksack.Day03rucksack
 import main.kotlin.day04campcleanup.Day04CampCleanup
 import main.kotlin.day05supplystacks.Day05Stacker
+import main.kotlin.day06tuning.Day06Tuning
+import main.kotlin.day06tuning.Day07DeviceSpace
 import java.lang.Exception
 import java.nio.file.Paths
 
@@ -26,6 +28,13 @@ fun main() {
         println("Day 5 Pt I: ${day5.partOne()}")
         val day5_2 = Day05Stacker("$inputPath/05_input.txt")
         println("Day 5 Pt II: ${day5_2.partTwo()}")
+        val day6 = Day06Tuning("$inputPath/06_input.txt")
+        println("Day 6 Pt I: ${day6.partOne()}")
+        println("Day 6 Pt II: ${day6.partTwo()}")
+        val day7 = Day07DeviceSpace("$inputPath/07_input.txt")
+        println("Day 7 Pt I: ${day7.partOne()}")
+        val day7_2 = Day07DeviceSpace("$inputPath/07_input.txt")
+        println("Day 7 Pt II: ${day7_2.partTwo()}")
     }catch(e:Exception){
         e.printStackTrace()
     }
