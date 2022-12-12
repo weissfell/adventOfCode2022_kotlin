@@ -6,6 +6,8 @@ import main.kotlin.day04campcleanup.Day04CampCleanup
 import main.kotlin.day05supplystacks.Day05Stacker
 import main.kotlin.day06tuning.Day06Tuning
 import main.kotlin.day06tuning.Day07DeviceSpace
+import main.kotlin.day08treetophouse.Day08TreetopHouse
+import main.kotlin.day10raytube.Day10RayTube
 import java.lang.Exception
 import java.nio.file.Paths
 
@@ -35,6 +37,12 @@ fun main() {
         println("Day 7 Pt I: ${day7.partOne()}")
         val day7_2 = Day07DeviceSpace("$inputPath/07_input.txt")
         println("Day 7 Pt II: ${day7_2.partTwo()}")
+//        val day8 = Day08TreetopHouse("$inputPath/08_input.txt")
+//        println("Day 8 Pt I: ${day8.partOne()}")
+        val day10 = Day10RayTube("$inputPath/10_input.txt")
+        println("Day 10 Pt I: ${day10.partOne()}")
+        println("Day 10 Pt II...\n")
+        day10.partTwo()
     }catch(e:Exception){
         e.printStackTrace()
     }
