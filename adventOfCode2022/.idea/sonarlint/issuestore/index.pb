@@ -24,3 +24,15 @@ a
 1src/main/kotlin/day05supplystacks/Day05Stacker.kt,7\3\7384ca70aa8a9a5cb4869b66c4a11ad18240ecca
 `
 0src/main/kotlin/day05supplystacks/SupplyStack.kt,e\5\e51010f55fd079b0f0bc5133e5a0c06ffad20122
+Z
+*src/main/kotlin/day06tuning/Day06Tuning.kt,e\4\e4038cf82429a3ef5c35e3d7cba13b3e00d87dee
+d
+4src/test/kotlin/generalutils/Day07DeviceSpaceTest.kt,8\1\818722896c656754f05db721ff21aaa934a1fc90
+e
+5src/test/kotlin/generalutils/Day08TreetopHouseTest.kt,5\8\5866830a6d609d0a22f1475d7268bb2294348110
+_
+/src/test/kotlin/generalutils/Day06TuningTest.kt,5\9\5925124f56f530bdefff0905ebd6440ccc3f18aa
+f
+6src/main/kotlin/day08treetophouse/Day08TreetopHouse.kt,d\e\de42b268b14c66ab574e20d0246a3e1ecebadc65
+d
+4src/main/kotlin/day07devicespace/Day07DeviceSpace.kt,f\d\fdc69ab7d42462d1e845ea46824b1ee6c386d051
